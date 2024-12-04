@@ -75,7 +75,7 @@ int main()
                 push(value);
                 break;
             case 2:
-                value = pop();
+                pop();
                 if (value != -1) 
                 {
                     printf("Popped element: %d\n", value);
